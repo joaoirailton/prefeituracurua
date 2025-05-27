@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --corpesquisa: #fad500;
+    --corheader: #ffe43f;
+    --cortitulo: #026459ed;
+    --corfundo: #d8e3ec;
+}
+body{
+    background-color: var(--corfundo);
+}
+#pesquisa_outros_links{
+    background-color: var(--corpesquisa);
+}
+#pesquisa_outros_links > div{
+    width: 880px;
+    margin: auto;
+    padding: 5px 0px;    
+    display: flex;
+    justify-content: space-between;
+}
+#pesquisa_outros_links ul{
+    list-style-type: none;
+    display: flex;
+}
+#box_logo{
+    background-color: var(--corheader);
+}
+#box_logo > div{
+    display: flex;
+    background-image: url(../imagens/imagem-cabecalho);
+    padding: 3px 0px;
+    width: 880px;
+    margin: auto;
+}
+#imagem_logo img{
+    width: 300px;
+}
+#box_logo ul{
+    display: flex;
+    list-style-type: none;
+}
+#navegacao{
+    background-color: var(--cortitulo);
+}
+#navegacao > div{
+    padding: 5px 0px;
+    width: 880px;
+    margin: auto;
+}
+#navegacao ul{
+    list-style-type: none;
+    display: flex;
+}
+main{
+    width: 880px;
+    height: 100vh;
+    background-color: orangered;
+    margin: auto;
+}
+body{
+    width: 100%;
+}
