@@ -24,15 +24,31 @@ body{
 }
 #btn_pesquisar{
     border: none;
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-weight: 600;
-    padding: 7px 8px;
+    padding: 8px 7px;
     border-radius: 3px;
-    background-color: white;
+    background-color: #feee86;
+    opacity: 88%;
+    color: var(--cortitulo);
+}
+#btn_pesquisar > i{
+    margin-left: 7px;
 }
 #pesquisa_outros_links ul{
     list-style-type: none;
     display: flex;
+    align-items: center;
+}
+#pesquisa_outros_links ul li{
+    padding: 3px 16px;
+}
+a.link{
+    text-decoration: none;
+    color: var(--cortitulo);
+}
+.link i{
+    font-size: 22px;
 }
 #box_logo{
     background-color: var(--corheader);
@@ -40,12 +56,17 @@ body{
 #box_logo > div{
     display: flex;
     background-image: url(../imagens/imagem-cabecalho);
-    padding: 3px 0px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 8px 0px;
     width: 1175px;
     margin: auto;
+    align-items: center;
 }
 #imagem_logo img{
-    width: 300px;
+    width: 375px;
+    margin: 3px 2px;
 }
 #box_logo ul{
     display: flex;
