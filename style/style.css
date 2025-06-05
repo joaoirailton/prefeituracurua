@@ -127,6 +127,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 381px 38px 756px 250px 1009px 85px;
+    gap: 7px;
 }
 main img{ /*-----------CONFIGURAÇÃO GERAL DAS IMAGENS*/
     width: 50px;
@@ -169,6 +170,13 @@ section#noticias-governo{
     grid-column: 1/4;
     grid-row: 3/4;
     background-color: purple; /*----COR PROVISORIA----*/
+}
+div#container-noticias{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.box-noticia{
+    width: 25%;
 }
 section#documentos-oficiais{
     grid-column: 1/4;
