@@ -130,7 +130,7 @@ main{
     gap: 7px;
 }
 main img{ /*-----------CONFIGURAÇÃO GERAL DAS IMAGENS*/
-    width: 50px;
+    width: 100%;
 }
 section#mural-fotos{
     grid-column: 1/4;
@@ -182,11 +182,26 @@ section#documentos-oficiais{
     grid-column: 1/4;
     grid-row: 4/5;
     background-color: brown; /*----COR PROVISORIA----*/
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.list-document{
+    list-style-type: none;
 }
 section#secretaria-esporte-turismo{
     grid-column: 1/3;
     grid-row: 5/6;
     background-color: grey; /*----COR PROVISORIA----*/
+}
+div#box-esporte{
+    display: flex;
+}
+div.album-fotos{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.fotos{
+    width: 50%;
 }
 section#pagina-facebook{
     grid-column: 3/4;
